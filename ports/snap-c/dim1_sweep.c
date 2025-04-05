@@ -75,9 +75,9 @@ void dim1_sweep ( input_data *input_vars, geom_data *geom_vars,
 
     for ( ang = 0; ang < NANG; ang++ )
     {
-        psi[NANG] = 0;
-        pc[NANG]  = 0;
-        den[NANG] = 0;
+        psi[ang] = 0;
+        pc[ang]  = 0;
+        den[ang] = 0;
     }
 
     double hv[NANG*2], fxhv[NANG*2], qm[NANG*NX];
